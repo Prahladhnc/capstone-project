@@ -1,0 +1,68 @@
+[
+  {
+    "unit": "UNIT – 1",
+    "hours": 8,
+    "title": "Introduction to Data Structures",
+    "topics": [
+      "Definition and its classification",
+      "Dynamic Memory allocation",
+      "Linked Lists: Definition",
+      "Basic Operations on Singly Linked List",
+      "Singly linked List with Header Nodes",
+      "Applications of Singly Linked Lists"
+    ]
+  },
+  {
+    "unit": "UNIT – 2",
+    "hours": 7,
+    "title": "Linked Lists and Stacks",
+    "topics": [
+      "Doubly Linked Lists",
+      "Circular Linked List – Implementation and Applications",
+      "Stacks: Definition, Operations",
+      "Implementation using Arrays and Linked list",
+      "Applications of Stack – Infix to postfix conversion",
+      "Evaluation of postfix expression",
+      "Parenthesis matching",
+      "Reversing a string"
+    ]
+  },
+  {
+    "unit": "UNIT – 3",
+    "hours": 6,
+    "title": "Recursion and Queues",
+    "topics": [
+      "Recursion: Definition",
+      "Writing recursive programs",
+      "Efficiency and Applications of Recursion",
+      "Queues: Definition, Operations",
+      "Implementation using Arrays and Linked list",
+      "Types of queues – Circular queue, Deque and priority queue",
+      "Applications of queues"
+    ]
+  },
+  {
+    "unit": "UNIT – 4",
+    "hours": 7,
+    "title": "Binary Trees",
+    "topics": [
+      "Binary Tree properties and representations",
+      "Traversals and other operations",
+      "Binary Search Trees: Definition",
+      "Operations on BST",
+      "Threaded binary trees",
+      "Applications"
+    ]
+  },
+  {
+    "unit": "UNIT – 5",
+    "hours": 8,
+    "title": "Balanced Trees",
+    "topics": [
+      "AVL Trees",
+      "Splay trees",
+      "Red-Black Trees – Definitions",
+      "Rotation and other basic operations"
+    ]
+  }
+]

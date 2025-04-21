@@ -1,0 +1,84 @@
+{
+  "unit_1": {
+    "hours": 7,
+    "title": "Introduction to Databases",
+    "topics": [
+      "Characteristics of Database approach",
+      "Advantages",
+      "Database Architecture",
+      "Data models, Schemas and instances",
+      "Three schema architecture and data independence",
+      "Database languages and interfaces",
+      "The database system environment",
+      "SQL: SQL Data Definition and Data Types",
+      "Specifying basic constraints in SQL",
+      "Basic retrieval queries in SQL",
+      "Insert, Delete and Update statements in SQL",
+      "Additional features of SQL",
+      "More complex SQL Queries",
+      "Specifying Constraints as Assertions and Triggers",
+      "Views (Virtual Tables) in SQL",
+      "Schema Change Statement in SQL"
+    ]
+  },
+  "unit_2": {
+    "hours": 7,
+    "title": "Entity-Relationship (ER) model",
+    "topics": [
+      "Using High-Level conceptual Data Models for Database Design",
+      "A sample Database Application",
+      "Entity types, Entity Sets, Attributes and Keys",
+      "Relationship Types, Relationship Sets, Roles and Structural Constraints",
+      "Weak Entity types",
+      "Refining the ER Design",
+      "ER Diagrams",
+      "Naming Conventions and Design Issues",
+      "Relationship Types of Degree Higher than two",
+      "Relational Database Design using ER-to Relational Mapping"
+    ]
+  },
+  "unit_3": {
+    "hours": 7,
+    "title": "Relational Data Model and Relational Algebra",
+    "topics": [
+      "Relational Model Concepts",
+      "Relational Model Constraints and Relational Database Schemas",
+      "Update Operations, Transactions and Dealing with Constraint Violations",
+      "Relational Algebra: Unary Relational Operations, SELECT and PROJECT",
+      "Relational Algebra Operations from Set Theory",
+      "Binary Relational Operations: JOIN and DIVISION",
+      "Additional Relational Operations"
+    ]
+  },
+  "unit_4": {
+    "hours": 7,
+    "title": "Database Design Theory and Normalization",
+    "topics": [
+      "Informal Design Guidelines for Relation Schemas",
+      "Functional Dependencies",
+      "Normal Forms Based on Primary Keys",
+      "General Definitions of Second and Third Normal Forms",
+      "Boyce-Codd Normal Form",
+      "Multi-valued Dependencies and a Fourth Normal Form",
+      "Join Dependencies",
+      "Fifth Normal Form"
+    ]
+  },
+  "unit_5": {
+    "hours": 8,
+    "title": "Transaction Processing, Concurrency Control, and Recovery",
+    "topics": [
+      "Introduction to Transaction Processing",
+      "Transaction and System Concepts",
+      "Desirable Properties of Transactions",
+      "Characterizing Schedules Based on Recoverability",
+      "Characterizing Schedules Based on Serializability",
+      "Two-Phase Locking Techniques for Concurrency Control",
+      "Recovery Concepts",
+      "NO-UNDO/REDO Recovery Techniques based on Deferred Update",
+      "Recovery Techniques Based on Immediate Update",
+      "Shadow Paging",
+      "The ARIES Recovery Algorithm"
+    ]
+  }
+}

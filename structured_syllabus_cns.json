@@ -1,0 +1,63 @@
+{
+  "units": [
+    {
+      "unit": 1,
+      "title": "Introduction to Computer Network",
+      "topics": [
+        "Problem: Building a Network",
+        "Application",
+        "Network Requirement",
+        "Network Architecture",
+        "Implementation of Network software",
+        "Performance measures"
+      ]
+    },
+    {
+      "unit": 2,
+      "title": "Connecting to Network",
+      "topics": [
+        "Perspective on connecting",
+        "Encoding",
+        "Framing",
+        "Error Detection",
+        "Reliable transmission",
+        "802.XX protocols"
+      ]
+    },
+    {
+      "unit": 3,
+      "title": "Internetworking",
+      "topics": [
+        "Switching and bridging",
+        "Basic Internetworking",
+        "Routing: Distance Vector routing",
+        "Link state routing",
+        "Global Internet: BGP protocol",
+        "Routing in mobile device",
+        "Deployment of IPv6"
+      ]
+    },
+    {
+      "unit": 4,
+      "title": "End to End Protocols",
+      "topics": [
+        "Simple De-multiplexer (UDP)",
+        "Reliable Byte stream (TCP): Connection establishment and termination",
+        "Silly window syndrome",
+        "Congestion control and Resource Allocation: Issues in resource allocation",
+        "Queuing Disciplines",
+        "TCP congestion control"
+      ]
+    },
+    {
+      "unit": 5,
+      "title": "Network Security and Applications",
+      "topics": [
+        "Building blocks of cryptography",
+        "Key pre-distribution",
+        "Traditional Applications",
+        "Multimedia Applications"
+      ]
+    }
+  ]
+}

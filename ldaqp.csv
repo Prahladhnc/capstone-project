@@ -1,0 +1,123 @@
+question_id,unit,question_text,marks
+Q001,Unit I,"Prove the following:
+i) x?y?z?+x?y?z+x?yz+xy?z+xyz=x?y?+z
+ii)w?y?z?+wz+y?z+xyz=w?y?+wz+xz",6
+Q002,Unit I,"Simplify and Realize the following Boolean function using NAND gates only.
+f( a,b,c,d)= ?m(0, 6, 8, 9, 10, 11, 13, 14, 15)",6
+Q003,Unit I,"Simplify the following function using K-Map in SOP and POS form.
+f(w,x,y,z)= ?m(1,3,4,5,6,7,11,14,15)",8
+Q004,Unit I,"Using Quine McClusky method obtain the essential prime implicants for the
+expression given and also write the simplified expression for the same
+f(w,x,y,z)= ?m(1,3,5,6,7,13,14) + dc (8,10,12)",10
+Q005,Unit I,"Simplify the expression given below using K-maps and realize the simplified
+expression using basic gates:
+f(a,b,c,d) = ?M (2,4,6,9,11,15) +dc(5,10,13,14)",6
+Q006,Unit I,What is static 0 hazard and how it can be eliminated?,4
+Q007,Unit I,"Analyze the given Truth Table. Reduce it to SOP and draw the logic diagram.
+X Y Z f
+0 0 0 1
+0 0 1 1
+0 1 0 1
+0 1 1 0
+1 0 0 1
+1 0 1 0
+1 1 0 1
+1 1 1 1",6
+Q008,Unit I,"Given the Boolean function, determine a minimal sum and minimal product using K-maps where w, x, y, z are variables. f (w, x, y, z) = ?m (2,3,4,10,13,14,15) + dc (7,9,11)",6
+Q009,Unit I,"Using Quine McClusky method obtain the essential prime implicants for the
+expression given below.
+f (A, B, C, D) = ?m (0,2,3,6,7,8,10,12,13)",8
+Q010,Unit I,"Design a SOP circuit which accepts 3 inputs a, b and c and outputs a 1(HIGH)
+when input has exactly two 1?s.",6
+Q011,Unit I,"Given the Boolean function, determine a minimal sum and minimal product
+using K-maps where w, x, y, z are variables.
+f (w, x, y, z) = „M (0,1,2,4,10,11,15) + dc (3,8,9)",6
+Q012,Unit I,"Simplify f(w,x,y,z)=?m(0,5,6,7,9,10,13,14,15) using Quine McCluskey
+method.",8
+Q013,Unit II,"Assume an adder/subtractor which is capable of handling two 4-bit operands.
+For each of the following set of unsigned operands, X &Y, and control input
+Add/Sub, determine the output. Check your answers by converting the binary
+numbers into decimal.
+i) X=0101, Y=0011, Add/Sub=0
+ii)X=0101, Y=0011, Add/Sub=1
+Draw the logic diagram using parallel binary adder /subtractor using X-OR
+gate.",6
+Q014,Unit II,"Using 3-to-8 decoder realize the following pairs of expressions. In each case
+gates should be selected as to minimize their total number of input terminals.
+i) f1(x2,x1,x0)= ?m (1,2,4,5)
+f2(x2,x1,x0)= ?m (0,1,3,4,5,6)
+ii) f1(x2,x1,x0)= „m (0,3,5)
+f2(x2,x1,x0)= „m (1,2,3,4,5,6)",6
+Q015,Unit II,"Realize each of the following Boolean expressions
+i) using an 8-to-1 line multiplexer where w,x,and y appear on select
+lines S2, S1 and S0 respectively
+ f(w,x,y,z)= ?m(0,4,6,8,9,11,13,14)
+ii) using 4-to-1 line multiplexer and external gates implement
+ f(w,x,y,z)= ?m(4,5,7,8,10,12,15)
+ Let w and x appear on the select lines S1 and S0 respectively.",8
+Q016,Unit II,"Analyse the truth table given below for a Boolean function where A, B, C are
+the 3 input variables and X, Y are the output variables. Here, input A has
+higher priority than input B and input B has higher priority than input C. The
+circuit also has Enable as the input. Implement the function using basic gates.
+Input Output
+Enable A B C X Y
+0 X X X 0 0
+1 0 0 0 0 0
+1 0 0 1 0 1
+1 0 1 X 1 0
+1 1 X X 1 1",6
+Q017,Unit II,"Realize the given 4-variable expression using 8-to-1 multiplexer as well as 4-
+to-1 multiplexer.
+f(w,x,y,z)= ?(2,5,6,7,9,12,13,15)",8
+Q018,Unit II,"Using OR and/or NOR gates along with 3-to-8 decoder to implement the
+following functions. The gates should be selected so as to minimize the
+number of inputs.
+i) f1(x,y,z)=?M(1,2,5)
+ f2(x,y,z)= ?M (0,1,3,5,7)
+ii) f1(x,y,z)= ?m(1,3)
+ f2(x,y,z)= ?m (1,2,4,5,7)
+Assume all the 8 output lines of the decoder are active high signals",6
+Q019,,Explain Programmable Array Logic with a neat diagram.,6
+Q020,,"Design the PROM for the following function.
+f1(x,y,z)= ?m(0,1,2,5,7)
+f2(x,y,z)= ?m(1,2,4,6)",6
+Q021,,"Design a PLA 4x5x2 i.e 4 inputs, 5 AND gates and 2 OR gates for the
+following functions.
+f1(w,x,y,z)= ?m(2,4,5,10,12,13,14)
+f2(w,x,y,z)= ?m(2,9,10,11,13,14,15) ",8
+Q022,Unit III,"Explain the working of positive edge triggered JK flip flop with the help of a neat diagram. Also, demonstrate the timing diagram for the same",8
+Q023,Unit III,"Derive the characteristic equations for
+i) SR Flip Flop
+ii) D Flip Flop
+iii) JK Flip Flop
+iv) T Flip Flop
+Also represent all the above flip flops using state transition diagram.",8
+Q024,Unit III,Differentiate Ring Counter and switched tail counter.,4
+Q025,Unit III,"Demonstrate the working of serial-in, serial-out 4-bit shift register with the
+help of a neat diagram.",6
+Q026,Unit III,"Design a 4 bit sequence detector using D Flip Flop to detect a pattern ?1010?
+in the input sequence.",8
+Q027,Unit III,With a neat diagram explain the working of SR Flip Flop realized using NAND gates.,6
+Q028,,List the different types of Registers. Explain Serial In Parallel Out with neat diagram.,6
+Q029,,Explain the working of Master-Slave JK flip flop with timing diagram.,6
+Q030,,"Derive the characteristic equation for SR flip flop, JK flip flop and D flip flop.",8
+Q031,Unit IV,Design a 3 bit asynchronous up- down counter using JK Flip Flop.,8
+Q032,Unit IV,"Design a synchronous mod-6 counter using JK flip-flops for the following
+counting sequence:
+000, 010, 011, 110, 101, 001 and then back to 000",12
+Q033,Unit V,Design a MOD-6 synchronous up counter using JK flip flop,10
+Q034,Unit V,"Given the state transition diagram using Moore Model design the sequence
+detector that receives the binary data with the pattern ?011?.
+Note: Consider data coming from Left to Right",10
+Q035,Unit V,"Design a synchronous up counter using JK flip flop for the given sequence
+2,3,7,5,6,4",10
+Q036,Unit V,"Design a sequence detector that receives binary data stream at its input X and
+signals when a combination ?011? arrives at the input by making its output , Y
+high which otherwise remains low. Consider data coming from Left to Right
+i.e first bit to be identified is 1, second 1 and third 0 from the input sequence.
+Design the above sequence detector using Mealy Model",10
+Q037,Unit V,Design a synchronous sequential circuit using Moore Model for the sequence detector to detect 3 or more consecutive 1?s in the given sequence.,8
+Q038,Unit V,"Obtain the reduced state table for the state diagram given below using
+i) Row elimination method
+ii) Implication table method",8
+Q039,Unit V,Differentiate Moore model and Mealy model.,

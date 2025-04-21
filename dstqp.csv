@@ -1,0 +1,37 @@
+question_id,unit,question_text,marks
+Q001,Unit I,"Using the syntax of malloc () , calloc () and realloc() functions, explain how to make the program dynamic in nature with respect to memory allocations . Write the sample code snippets wherever required along with its syntax . ",10
+Q002,Unit I,"Given a Singly Linked List , the requirement is to sort the data in ascending order . Write a Suitable C code to read the elements into linked list and sort them in ascending order. Use as many as temporary pointers required to accomplish the task assigned.",10
+Q003,Unit I,Convert the following Infix expression to Prefix and Postfix expression. Show the steps clearly . i) (A+B/C) ^ (D ^E/F)/G ii) (X/Y+Z) ^W -U-V ,8
+Q004,Unit I," Evaluate the following given Postfix expression with values of A=1, B=2, C=3, D=4, E=5, F=6 and write an algorithm for the same. AB+CD$E -*F/ [$ represents Exponentiation]",6
+Q005,Unit I,"Analyze the given lines of code below and write the output with justification . int CalculateNum(int num, int len) { if (len != 1) { return (((num % 10) * pow(10, len - 1)) + CalculateNum(num / 10, --len)); } else { return num; } } int main() { int num = 0, result = 0, len = 0, temp = 0; printf(""Enter Number: ""); scanf(""%d"", &num); temp = num; while (temp > 0) { temp = temp / 10;  len = len + 1; } result = CalculateNum(num, len); printf(""Result is: %d"", result); return 0; }",6
+Q006,Unit II,Circular Queue is advantageous than Linear Queue? Justify your answer with an example. Write a function to insert and delete an element from a circular queue.,6
+Q007,Unit II,"The department has planned to conduct a workshop on “AI and Machine Learning” for a maximum 75 participants on first come first serve basis. It should display the message like registration open. Once all 75 participants are registered, the message should b e displayed as “Registration Closed”. If the candidate cancels the registration, then it can be registered by the other interested participant based on the availability. Identify the suitable data structure and develop a C program for the above scenario",8
+Q008,Unit II,Differentiate between malloc() and calloc() functions with suitable examples. ,6
+Q009,Unit II,Analyze the advantages and disadvantages of storing data in linked list and in an array.,6
+Q010,Unit II,write a function to delete consecutive three nodes from a given position in the Single Linked List by checking all extreme cases,8
+Q011,Unit II,Describe how Doubly Linked list is advantageous compared to Singly Linked list with an example.,6
+Q012,Unit II,Write a C code to perform the following operations on Doubly Linked List. i. Insert nodes only from the front end . ii. Delete a Node based on Key value and print appropriate Message when key not found. iii. Display the contents of list.,10
+Q013,Unit II," By making use of a Stack , i. Convert the Infix Expression : A - B - D * E / F + B * C to its equivalent Postfix form . ii. Evaluate the postfix expression: 5 2 7 ^ * 39 13 / - 9 11 * + ",10
+Q014,Unit III,Analyze and explain how linked implementation of Queue is advantageous compared to implementation of Queue using array.,6
+Q015,Unit III,"Write a program for the following scenario using Singly linked list: Create a linked list with starting address stored in Start. Each node contains information like: Student USN, Student name and number of previous backlog courses. Once the declaration of result, read USN and update total backlogs, delete those students if number of backlogs is greater than 4 courses.",8
+Q016,Unit III,Demonstrate the implementation of Stack using Linked List with an example.,6
+Q017,Unit III,Write functions for each of the following: i) Find the maximum element in a Binary search tree. ii) Count number of nodes in a Binary tree,6
+Q018,Unit III,Construct a Binary tree for the following Preorder and Inorder traversal: Preorder: A B C D E F G H I J Inorder: B C A E G D H F I J,8
+Q019,Unit III,Demonstrate the different cases of deleting element from Binary tree with an example for each.,6
+Q020,Unit III, Sparse Matrix is a Matrix containing more number of Zero s than non-Zero elements . Write a C program to read contents of a Sparse Matrix and store non - Zero elements using Doubly Linked List and d isplay . ,10
+Q021,Unit III, Implement the working of a Stack using a circular Doubly Linked List.,10
+Q022,Unit IV,Identify the type of Binary tree for the following trees and justify your answer. ,6
+Q023,Unit IV,"Create Binary Search tree for the following list of elements and perform Delete 85, Delete 12, Delete 50 operations. 50, 75, 25, 30, 12, 85, 60, 70, 52 ",8
+Q024,Unit IV,"Differentiate between Linear probing, Quadratic probing, Double Hashing and Rehashing technique with example. Consider the following hash table with the current status and hash key=Key % 11. Explain the situation what happens when going to insert next key element 87 using Linear Probing method and rewrite the hash table. Index Value 0 43 1 2 46 3 25 4 36 5 6 7 18 8 29 9 10 10",10
+Q025,Unit IV,"Construct a Hash table for the following numbers: 28, 4, 19, 1, 22, 16, 12, 0, 5, 7 Show how collision is resolved using Extendible Hashing with each step demonstrated clearly. Also, mention how directory expansion and bucket splitting taken place. Consider Bucket limit = 3.",10
+Q026,Unit IV,Write a Recursive Solution to solve the Tower of Hanoi Problem. Show that its efficiency is O(2n).,8
+Q027,Unit IV,"There is a Ticket Issuing queue where any person who want to buy ticket has to enter from one end and come out of queue from the other end. By assuming th at the Ticket Issuing queue can hold only 10 people together in the queue , chose a suitable data struc ture and i mplement the given scenario using the C language.",8
+Q028,Unit IV,"Using pictorial representations, explain the status of a Circular queue after applying the sequence of operations: Insert 10, Insert 20, Insert 30, Delete 10, Insert 40 .",4
+Q029,Unit V,"Prove that the maximum number of nodes at level ‘L’ of a binary tree is 2L. ii. If a binary tree is of height 5 , find the maximum number of nodes that the binary tree contains.",6
+Q030,Unit V,"Construct a Binary Search Tree (BST) for the following sequence of elements: 50, 70, 60, 20, 90, 10, 40, 100 8 c) Apply the In-order, Pre -order and Post -order traversal techniques on the tree given below and write the resultant sequence s clearly .",6
+Q031,Unit V, Construct an AVL Tree by inserting numbers from 1 to 8.,10
+Q032,Unit V,Explain any two properties of an AVL Tree along with the pictorial representations .,6
+Q033,Unit V,Insert the element 70 to the given binary tree and balance the resultant tree by applying the rules of AVL tree rotations on it.,4
+Q034,Unit V,List the properties of a Red- Black tree.,4
+Q035,Unit V," Construct a Red -Black Tree for the given set of elements : 10,20,30,40,50,60,70,80",10
+Q036,Unit V,Explain any 4 types of r otations that can be applied on a Splay Tree .,6

@@ -1,0 +1,92 @@
+{
+  "units": [
+    {
+      "unit": 1,
+      "hours": 5,
+      "title": "Basics of Gates and Combinational Logic Circuits",
+      "topics": [
+        "Review of Basic Logic gates",
+        "Positive and Negative Logic",
+        "Sum-of-Products Method",
+        "Truth Table to Karnaugh Map",
+        "Pairs, Quads, and Octets",
+        "Karnaugh Simplifications",
+        "Don’t-care Conditions",
+        "Product-of-Sums Method",
+        "Product-of-Sums simplifications",
+        "Simplification by Quine-McClusky Method",
+        "Multiplexers",
+        "Demultiplexers",
+        "1-of-16 Decoder",
+        "Exclusive-or Gates",
+        "Encoders",
+        "Parity Generators"
+      ]
+    },
+    {
+      "unit": 2,
+      "hours": 5,
+      "title": "Sequential Circuits, Registers and Counters",
+      "topics": [
+        "RS Flip-Flops",
+        "Gated Flip-Flops",
+        "Edge-triggered Flip-Flops",
+        "Flip-Flop Timing",
+        "JK Master-Slave Flip-Flop",
+        "Various Representation of Flip-Flops",
+        "Analysis of Sequential Circuits",
+        "Types of Registers",
+        "Applications of Shift Registers",
+        "Asynchronous Counters",
+        "Synchronous Counters",
+        "Changing the Counter Modulus",
+        "Counter Design as a Synthesis problem"
+      ]
+    },
+    {
+      "unit": 3,
+      "hours": 5,
+      "title": "Basic Concepts and Computer Evolution",
+      "topics": [
+        "Organization and Architecture",
+        "Structure and Function",
+        "A Brief History of Computers",
+        "The Evolution of the Intel x86 Architecture",
+        "Computer Components",
+        "Computer Function",
+        "Interconnection Structures",
+        "Bus Interconnection"
+      ]
+    },
+    {
+      "unit": 4,
+      "hours": 5,
+      "title": "Cache Memory, I/O Organization and Arithmetic",
+      "topics": [
+        "Memory Hierarchy",
+        "Cache mapping techniques",
+        "Accessing I/O Devices",
+        "Interrupts",
+        "Addition and Subtraction of Signed Numbers",
+        "Design of Fast adders",
+        "Multiplication of positive Numbers",
+        "Signed-Operand Multiplication"
+      ]
+    },
+    {
+      "unit": 5,
+      "hours": 6,
+      "title": "The Central Processing Unit and Control Unit",
+      "topics": [
+        "Machine Instruction Characteristics",
+        "Types of Operands",
+        "Types of Operations",
+        "Addressing Modes",
+        "Instruction Formats",
+        "Assembly Language",
+        "Hardwired Control Unit",
+        "Microprogrammed Control Unit"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+question_id,unit,question_text,marks
+Q001,Unit I,"Database approach is more effective than traditional file processing systems. Justify the statement and d iscuss the characteristics of database approach.  c) Write the syntax for the following SQL statements Create, update , alter , drop 04 OR",8
+Q002,Unit I,"Create the following database in SQL Sailors(sid: integer, sname: string, rating: integer, age: real) Boats(bid: integer, bname: string, color: string) Reserves(sid: integer, bid: integer, day: date) Write the following queries in SQL i. Find all information of sailors who have reserved specified boat number ii. Find the ids and names of sailors who have reserved two different boats on the same date. iii. Find the name and the age of the youngest sailor iv. Find the names of sailors wh o have reserved all boats.",8
+Q003,Unit I,"Write the syntax for the following SQL statements Create, update , alter , drop.",4
+Q004,Unit I,Eloborate the following concepts with suitable examples. i. Views in SQL ii. Aggregate functions ,8
+Q005,Unit I,Consider an employee database with the following information Empid Ename Design Sal age 1 Anitha s Programmar 50000 35 2 Babu Sales 12000 23 3 Ram Prasad Manager 65000 49 4 Raju Attender 10000 35 Create the assertion for the following i. Where salary not greater than 65000 and not less than 10000. ii. Where age between 23 and 50,6
+Q006,Unit I,With a neat diagram Summarize three schema architecture .,6
+Q007,Unit I,Explain three schema architecture of database system with neat diagram. ,10
+Q008,Unit I,Explain the basic constraints that can be specified when a table is created in SQL. ,10
+Q009,Unit I,"Write the SQL queries for the following database schema as given below. Supplier (Sno, Sname, Status, City) Product (Pno, Pname, Color, Weight, City) Shipments ( Sno, Pno, Qty) i. Retrive names of supplier who supply part P2 ii. Retrieve the names of suppliers who do not supply any part supplied by S2. iii. Retrieve part numbers for all parts supplied by more than one supplier. iv. For each part supplied , get part number , maximum quantity and minimum quantity supplied for that part.",10
+Q010,Unit I,"With respect to SQL, explain the following with an example. i)Create Command ii) Insert Command iii)Drop Command iv) Update Command",10
+Q011,Unit I,Compare the characteristics that distinguish the database approach from traditional file processing method.,6
+Q012,Unit I,Differentiate Central ized and Client/S erver architectures of DBMS. Discuss their advantages and disadvantages. ,7
+Q013,Unit I,Describe the Component modules o f a D atabase environment a nd their interactions with a neat diagram.,7
+Q014,Unit II,"Design an entity -relationship diagram for a Banking database application, depicting entity sets, attributes, relationship sets , roles and structural constraints.",10
+Q015,Unit II,Explain the characteristics of Relations.,4
+Q016,Unit II,Summaries the following keys with suitable examples. i) super key ii) primary key iii) candidate key,6
+Q017,Unit II,"Design a database schema for the following requirements that stores information about students, courses and enrollments. STUDENT (snum: integer, sname: string, major: string, level: string, age: integer) CLASS ( cname: string, meets at: string, room: string, d: integer) ENROLLED (snum: integer, cname: string) FACULTY (fid: integer, fname: string, deptid: integer)",8
+Q018,Unit II,Explain schema -based Relational Model Constraints with suitable example.,6
+Q019,Unit II,Differentiate b etween Strong and Weak Entities with examples for each.,6
+Q020,Unit II,"Design a database and draw an ER diagram for STUDENT database, taking into account at least five entities. Indicate all keys, constraints and assumptions that are made. ",10
+Q021,Unit II,Enumerate the steps involved in converting the ER diagram to corresponding relational tables,10
+Q022,Unit II,"A database is being constructed to keep track of the teams and games of a sports league. A team has a number of players, not all of whom participate in each game. It is desired to keep track of the players participating in each game for each team, the posi tions they played in that game and the result of the game. Design an ER diagram and schema for this application, stating any assumptions you make. Choose your favorite sport (e.g Cricket, Baseball, Football). Make sure the database comprise primary keys, c ardinality ratio, derived attributes and week entities. ",10
+Q023,Unit II,Discuss the relational database design using ER to relational mapping. Convert the following ER diagram to relational schema diagram.,10
+Q024,Unit II,"Consider the following COMPANY database EMP(Name,SSN ,Salary,SuperSSN,Gender,Dno) DEPT(DNum,Dname,MgrSSN,Dno) DEPT_LOC(Dnum,Dlocation) DEPENDENT(ESSN,Dep_name,Sex) WORKS_ON(ESSN,Pno,Hours) PROJECT(Pname,Pnumber,Plocation,Dnum) Write the Relational Algebra Expressions� for the following: i. Retrieve the name, address, salary of employees who work for the Research department. ii. Find the names of employees who work on all projects controlled by department number 4. iii. Retrieve the SSN of all employees who either in department number 4 or directly supervise an employee who work in department number 4 ",6
+Q025,Unit II,Discuss equijoin and natural join with suitable examples using Relational Algebra notations. ,6
+Q026,Unit II,"With respect to ER diagram, explain the following with examples (i) Recursive Relationship (ii) Entity Type (iii) Weak Entity Type (iv) Cardinality Ratio ",8
+Q027,Unit II,"Consider the following relation: CAR_SALE(Car#, Date_sold , Salesperson#, Commission%, Discount_amt) Assume that a car may be sold by multiple salespeople, and hence {Car#, Salesperson#} is the primary key. Additional dependencies are : Date_sold → Discount_amt and Salesperson# → Commission% Based o n the given primary key, check whether the above relation is in 1NF, 2NF, or 3NF . If not normalize the relation ?",10
+Q028,Unit II,Describe the informal design guidelines for relation schemas. Justify how these guidelines contribute to the normalization process.,10
+Q029,Unit III,Summarize the desirable properties of a transaction. ,6
+Q030,Unit III,Illustrate Boyce -Codd Normal Form with suitable example.,6
+Q031,Unit III,"Define functional dependencies. Consider the following relation: A B C D a1 b1 c1 d1 a1 b2 c2 d2 a2 b2 c2 d3 a3 b3 c3 d3 Which of the following dependencies may hold in the above relation? If doesn’t hold , explain specifying the tuples that cause the violation. i) A → B ii) B → A iii) B → C iv) D → C v) {A, B} → C vi) {C, D} → B ",8
+Q032,Unit III,Explain Multivalued dependency and 4NF with an example. ,10
+Q033,Unit III,"Suppose you are given a relation R with four attributes ABCD. For each of the following sets of FDs, assuming those are the only dependencies that hold for R, do the following: i. Identify the candidate key(s) for R. ii. Identify the best normal form that R sat isfies (1NF, 2NF, 3NF, or BCNF). iii. If R is not in BCNF, decompose it into a set of BCNF relations that preserve the dependencies A → B, BC → D, A → C 10",10
+Q034,Unit III,"Teachers of various departments publish their research papers in different journals. The following relation schemas are based on this scenario. Teacher (TID, name, designation, salary, address, doj, qualification, DNo) Department (DNo , Dname, strength, Dtype) Journal (Jname, ISSN , frequency, year_of_inception) Publication (TID, ISSN , No_of_paper, VolumeNo, Month, Year) Write the following queries using Relational Algebra. i. Find the name of the teacher who has published in the journal whose name as IJMDM� ii. Find the Total num ber of papers published by the teacher whose name is Prof. Ramesh in 2019. iii. Find the department name of the teachers who publish in journals whose year of inception is 2002. iv. Find the name of the teacher who have highest number of publications ",10
+Q035,Unit III,Discuss the relational algebra operations from set theory with suitable example ,10
+Q036,Unit IV,State the informal guidelines for relational schema design. Illustrate how violation of these guidelines may be harmful for the database. ,10
+Q037,Unit IV,"Consider a relation Booktitle Auth_name Booktype Listprice Affiliation Publication With following Functional dependencies BooktitleBooktype, Publication Auth_name� Affiliation Booktype �Listprice Apply normalization FORMS until you cannot decompose the relation further . ",10
+Q038,Unit V,Discuss the UNDO and REDO operations and the recovery technique that use each. ,10
+Q039,Unit V,Check whether the given schedule S is conflict serializable and recoverable or not,10
+Q040,Unit V,Write the ARIES Recovery Algorithm ,6
+Q041,Unit V,Determine all the possible serialized schedules for the given schedule ,6
+Q042,Unit V,"Discuss how serializability used to enforce concurrency control in database system with an example. ""Serializability sometimes considered too restrictive measure of correctness for schedules"".  Justify.",8
+Q043,Unit V,List and explain the desirable properties of a transaction. ,8
+Q044,Unit V,"Let Ri(z) and Wi(z) denote read and write operations on a data element z by a transaction Ti, respectively . Consider the below schedule S with four transactions and find the conflict equivalent to S? S: R 4(x) R2(x) R3(x) R1(y) W1(y) W2(x) W3(y) R4(y).",6
+Q045,Unit V,Illustrate with a State transition diagram the states for transaction execution and explain.,6
+Q046,Unit V,Discuss the objectives of the RAID technology with suitable example. ,6
+Q047,Unit V,Distinguish between the operational mechanisms of dynamic hashing and static hashing with a neat diagram.,8
+Q048,Unit V,Demonstrate B+ tree structure with a suitable example.,6

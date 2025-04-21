@@ -1,0 +1,82 @@
+{
+  "units": [
+    {
+      "unit": 1,
+      "hours": 8,
+      "title": "Introduction to Finite Automata (FA)",
+      "topics": [
+        "Introduction to Finite Automata",
+        "Central Concepts of Automata Theory – Languages, Grammars, Automata and applications",
+        "Deterministic Finite Automata (DFA)",
+        "Nondeterministic Finite Automata (NFA)",
+        "Equivalence of DFA and NFA",
+        "FA State Reductions",
+        "Finite Automata with Epsilon Transition"
+      ]
+    },
+    {
+      "unit": 2,
+      "hours": 6,
+      "title": "Regular Languages and Expressions",
+      "topics": [
+        "Regular Expressions",
+        "Finite Automata and Regular Expressions",
+        "Applications of Regular Expressions",
+        "Proving Languages Not to Be Regular",
+        "Closure Properties of Regular Languages",
+        "Equivalence and Minimization of Automata"
+      ]
+    },
+    {
+      "unit": 3,
+      "hours": 8,
+      "title": "Context Free Grammars and Languages",
+      "topics": [
+        "Context Free Grammars (CFG) - Left Most Derivation, Right Most Derivation, Parse trees",
+        "Applications of Context Free Grammars",
+        "Parsing and Ambiguity in Grammars and Languages",
+        "CFG Simplification: Eliminating Useless Symbols, Computing the Generating and Reachable Symbols",
+        "Eliminating Epsilon Productions",
+        "Eliminating Unit Productions",
+        "Chomsky Normal Form (CNF)",
+        "Greibach Normal Form (GNF)",
+        "Pumping Lemma for Context Free Languages",
+        "Closure Properties of Context Free Languages (CFL)"
+      ]
+    },
+    {
+      "unit": 4,
+      "hours": 7,
+      "title": "Pushdown Automata (PDA)",
+      "topics": [
+        "Introduction to PDA",
+        "Non-Deterministic Pushdown Automaton",
+        "The Languages accepted by a Pushdown Automaton",
+        "Deterministic Pushdown Automata",
+        "Applications of PDA",
+        "PDA for CFL",
+        "Equivalence of PDA’s and CFG’s"
+      ]
+    },
+    {
+      "unit": 5,
+      "hours": 7,
+      "title": "Turing Machines and Computability",
+      "topics": [
+        "The Standard Turing Machine (TM) – Definition",
+        "TM as Language Accepters and Transducers",
+        "Combining TM for complicated Task",
+        "Turing’s Thesis",
+        "TM with Stay Option & Semi-Infinite Tape",
+        "Offline TM",
+        "Multitape & Multidimensional TM",
+        "Nondeterministic TM",
+        "Universal TM",
+        "Linear Bounded Automata",
+        "Problems that cannot be solved by TMs",
+        "Post Correspondence Problem",
+        "Undecidable Problems"
+      ]
+    }
+  ]
+}

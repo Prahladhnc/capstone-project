@@ -1,0 +1,35 @@
+question_id,unit,question_text,marks
+Q001,Unit I,Design a Deterministic Finite Automaton (DFA) to accept i) strings consisting of even number of 0’s and even number of 1’s ii) strings starting with a prefix ab iii) strings containing 001 as a substring,12
+Q002,Unit I,Convert the following NFA to its equivalent DFA.,8
+Q003,Unit I,Convert the given λ -NFA to DFA and explain the conversion steps theoretically,10
+Q004,Unit I,"Consider the given language L = {w, w mod 5=0, ∑ = {0, 1} and Construct a DFA which accepts strings of 0’s & 1’s where each string is represented as binary number.",10
+Q005,Unit I,"Design a DFA to accepting the following strings over the alphabet{a,b} i. The set of strings with odd number of ‘a’ and even number of ‘b’ ii. The set of strings which either start or end with ba",6
+Q006,Unit I,"Consider the given language L = {w, w mod 5=0, ∑ = {0, 1} and Construct a DFA which accepts strings of 0’s & 1’s where each string is represented as binary number.",8
+Q007,Unit I,"Obtain an NFA to accept the language L={ababn or aban , n >=0}",6
+Q008,Unit I,Convert the following NFA to its equivalent DFA and Elaborate the conversion of steps in detail.,10
+Q009,Unit I,Obtain the NFA to accept strings of a’s and b’s ending with ab or ba. Using the resultant NFA obtain an equivalent DFA.,10
+Q010,Unit II,"Write the Regular Expression (RE) to accept set of all strings i) over the alphabet {a,b,c} consisting of atleast one ‘a’ and atleast one ‘b’ ii) over the alphabet {0,1} where every pair of adjacent 0’s appear before any pair of adjacent 1’s",4
+Q011,Unit II,Convert the given RE to its equivalent NFA with λ transitions i) (0+1)*1(0+1) ii) (a+bb)*(ba*+ λ),6
+Q012,Unit II,Minimize the given DFA by applying suitable procedure,10
+Q013,Unit II,"Write the equivalent regular expression for the language L ={ a2nb 2m , n, m >=0}",8
+Q014,Unit II,Derive the regular expression to accept the string of a’s and b’s having total length less than or equal to 0.,6
+Q015,Unit II,Construct a ε-NFA to accept the regular language: (0+1)*+1,6
+Q016,Unit III,"Design Context Free Grammar (CFG) to accept the following languages i. L = { anb n-4 , n >= 4} ii. L = {0i1 j , i ≠ j , i >= 0 , j >=0 }",6
+Q017,Unit III,"Check whether the given grammar is ambiguous or not. If not then, convert it into CNF form by applying the sequence of conversion steps accordingly S  ASB | λ A  aAS | a B  SbS |A | bb",10
+Q018,Unit III,prove that the language is not a Context Free Language (CFL). L = {aib ic i | i>=0},4
+Q019,Unit III,Convert the given Context Free Grammar (CFG) to Chomsky Normal Form (CNF) S →ASB A→aAS | a | ε B → SbS | A | bb,8
+Q020,Unit III,"If L1 & L2 are two Context Free Languages, then show that the L1UL2, L1.L2, L1* are also Context Free and are closed.",6
+Q021,Unit III,Show that the given grammar is ambiguous S →A|B A → aAb | ε B → abB | ε,6
+Q022,Unit IV,"Define Push Down Automata (PDA). Design a PDA which accepts equal number of a’s and b’s over ∑ = {a,b}",10
+Q023,Unit IV,"Consider the transition functions given below and convert the PDA : P = ({p,q}, {0,1}, {X,Z}, δ, q, Z) to its equivalent CFG representation. δ(q, 1, Z) = (q, XZ) δ(q, 1, X) = (q, XX) δ(q, λ , X) = (q, λ) δ(q, 0, X) = (p, X) δ(p, 1, X) = (p, λ) δ(p, 0, Z) = (q, Z)",10
+Q024,Unit IV,Obtain PDA for the given CFG by applying suitable conversion procedures. S  aABC A  aB | a B  bA | b C  a,10
+Q025,Unit IV,"Design a Non-Deterministic PDA (NPDA) for accepting balanced parenthesis. Using the Instantaneous Descriptions, show that the resultant NPDA will accept the string ([ ])[ ]",10
+Q026,Unit IV,"Construct a Push Down Automata (PDA) that accepts the language L={ an b mc n+m | n, m>=1}",10
+Q027,Unit IV,Convert the given CFG: S → aSa | bSb | c to an equivalent PDA and show the instantaneous descriptions for the input string “abbccbba” when applied on the resultant PDA.,10
+Q028,Unit IV,"Design Non-Deterministic Pushdown Automata (NPDA) to accept the language L={ WWR over the alphabets ∑ ={a,b}}",8
+Q029,Unit IV,"Convert the given PDA transitions to its equivalent CFG representation: f(q0, a, Z) = (q0, AZ) f(q0, a, A) = (q0, A) f(q0,b,A) = (q0, ε ) f(q1, ε, Z )= (q2, ε )",6
+Q030,Unit IV,Differentiate between Deterministic PDA and NPDA,6
+Q031,Unit V,Design a Turing Machine to accept the language L(M) = {0n1 n2 n | n>=1},10
+Q032,Unit V,Differentiate between i) Multi-tape and Multi-dimensional Turing Machine ii) Deterministic and Non-Deterministic Turing Machines,10
+Q033,Unit V,Design a Turing machine to accept the language L = {0n 1 n where n >=1},10
+Q034,Unit V,Obtain Turing machine to accept strings of a’s and b’s on the string w having Na(w) equal to Nb(w),10
