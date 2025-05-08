@@ -1,0 +1,27 @@
+
+ 1 - 20 Marks: Introduction to Computer Network 
+a) "Explain the steps involved in building a network, focusing on the application layer. Discuss the role of applications in network communication and provide an example of an application that operates at this layer." (4 marks)
+b)"Explain the importance of network architecture in the design and implementation of a computer network. Discuss the key components of the OSI and TCP/IP models, their functions, and how they contribute to the efficient communication between devices in a network." (8 marks)
+c)"Discuss the implementation of network software in a local area network (LAN) environment, focusing on the factors that influence its performance. Explain the role of performance measures in ensuring the efficient operation of the network and provide examples of key performance indicators (KPIs) that network administrators might use to monitor and improve network performance." (8 marks)
+
+
+2 - 20 Marks: Connecting to Network 
+a)"Explain the process of encoding and framing in the context of connecting to a network, highlighting their importance in ensuring efficient and secure data transmission." (10 marks)
+b)"Explain the role of the Cyclic Redundancy Check (CRC) in error detection during the reliable transmission of data over a network, and discuss the advantages and disadvantages of using CRC for this purpose." (10 marks)
+ 
+3 - 20 Marks: Internetworking 
+a)"Explain the difference between store-and-forward and cut-through switching. Discuss the advantages and disadvantages of each method in terms of network performance and resource utilization." (6 marks)
+b)"Explain the differences and advantages/disadvantages of distance-vector and link-state algorithms in terms of scalability, convergence time, loop avoidance, bandwidth utilization and administrative overhead. Provide a real-world example for each algorithm to illustrate their practical applications." (6 marks)
+c)"Explain the role of the Border Gateway Protocol (BGP) in the global internet and discuss its advantages and disadvantages in maintaining the internet's routing system, with a focus on inter-AS (Autonomous System) communication and path selection." (8 marks)
+
+
+4 - 20 Marks: End to End Protocols 
+a)"Explain the process of establishing a TCP connection, focusing on the three-way handshake and the role of sequence numbers in maintaining the order of transmitted data." (5 marks)
+b) "Explain the impact of silly-window syndrome on network performance and discuss potential solutions to mitigate this issue in the context of TCP/IP protocol." (5 marks)
+c)"Explain the role of TCP Congestion Avoidance algorithms in maintaining network stability and fairness during data transmission. Discuss the differences between the Additive Increase Multiplicative Decrease (AIMD) and Slow Start algorithms, and provide an example of a scenario where each algorithm would be advantageous." (10 marks)
+
+
+5 - 20 Marks: Network Security and Applications 
+a)In a Bluetooth Low Energy (BLE) network, a device needs to securely communicate with another device using a symmetric key established through the OT (Oblivious Transfer) protocol. If the key size is 64 bits, the number of rounds in the Diffie-Hellman key exchange protocol is set to 4, and the probability of guessing the correct key in a brute force attack is $2^{-n}$, what is the minimum value of $n$ to ensure a security level of at least 80 bits? (Assume that the attacker has no knowledge of the devices' public keys and can only perform a passive eavesdropping attack.) (10 marks)
+b)"Explain the role of Quality of Service (QoS) in ensuring efficient delivery of multimedia applications over a network, with a focus on its impact on bandwidth allocation, packet prioritization, and jitter reduction." (10 marks)
+ 

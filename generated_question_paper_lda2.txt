@@ -1,0 +1,26 @@
+1 - 20 Marks: Basics of Gates and Combinational Logic Circuits 
+a) "Given the following K-map, find the simplified Boolean expression for the function F(A, B, C, D) using the Sum of Products method. Also, draw the logic circuit diagram using NAND gates to implement the derived expression." (6 marks)
+b) "Consider a combinational logic circuit with 5 inputs (A, B, C, D, E) and 3 outputs (F, G, H). The truth table for the circuit is given. Using the K-map method, find the simplified Boolean expression for output H." (6 marks)
+c) Explain the working principle of a parity generator and its application in error detection in digital communication systems. Include a brief explanation of even and odd parities, and the difference between them. Provide a simple example to illustrate the concept. (8 Marks) (8 marks)
+
+
+2 - 20 Marks: Sequential Circuits, Registers and Counters 
+a)"Explain the operation, timing diagram, and the difference between positive-edge triggered D flip-flop (D-FFP) and J-K master-slave (JK-M/S FF) with respect to their setup and hold times. Provide an example of a real-world application for each and discuss the advantages and disadvantages of each in that application." (10 marks)
+b)"Explain the design process of a synchronous counter with a modulus of 8. Discuss the role of flip-flops and the clock signal in this design, and provide a truth table and state diagram for the counter." (10 marks)
+ 
+3 - 20 Marks: Basic Concepts and Computer Evolution 
+a)"Explain the difference between Von Neumann and Harvard architectures in terms of memory organization and their impact on the development of modern computer systems." (4 marks)
+b) Discuss the evolution and significance of The Intel 4004, the first microprocessor, in the development of modern computing. In your answer, explain its architecture, its impact on the computer industry and its role in paving the way for future microprocessors. (8 Marks) (8 marks)
+c)"Discuss the advantages and disadvantages of bus interconnection structures in computer systems. Explain how bus arbitration and bus contention can impact the performance of a bus-based system, and propose a solution to mitigate these issues." (8 marks)
+
+
+4 - 20 Marks: Cache Memory, I/O Organization and Arithmetic 
+a) "Explain the principle of Least Recently Used (LRU) cache replacement policy and discuss its advantages and disadvantages compared to First-In-First-Out (FIFO) policy." (5 marks)
+b) "Explain the process of adding two signed numbers in a computer system, including the representation of negative numbers, carry propagation, and overflow checking." (5 marks)
+c) "Explain the design and working principle of Booth’s algorithm for signed-operand multiplication, highlighting its advantages and disadvantages compared to other methods." (10 marks)
+
+
+5 - 20 Marks: The Central Processing Unit and Control Unit 
+a)"Explain the different types of addressing modes used in a computer system, providing examples for each, and discuss the advantages and disadvantages of each addressing mode in terms of efficiency and flexibility." (10 marks)
+b)"Explain the difference and advantages of using a microprogrammable control unit compared to a hardwirred one in a central processing unit (CPU)." (10 marks)
+ 

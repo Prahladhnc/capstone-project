@@ -1,0 +1,26 @@
+
+ UNIT – 1 - 20 Marks: The Machine Learning Landscape and Bayesian Decision Theory 
+a) "Explain the main challenges faced in testing and validating machine learning models, providing examples for each challenge and suggesting potential solutions." (4 marks)
+b)"Explain the process of framing a problem in the context of end-to-end machine learning, providing an example of a real-world problem and outlining the steps involved in defining the problem, understanding the data, selecting the appropriate performance measure and preparing the dataset for the ML algorithms. Discuss the importance of each step and the potential challenges that may arise during this process." (8 marks)
+ c) "Explain the process of training and evaluating a data set in the context of machine learning, focusing on the importance of cross-validation and the role of loss functions in this process. Provide a real-world example to illustrate these concepts." (8 marks)
+
+
+ UNIT – 2 - 20 Marks: Classification and Training Models 
+a)"Consider a binary classifier trained to distinguish between handwritten digits 0 and 6 using the MINST dataset. Calculate the accuracy, precision, recall, and F1-score for the trained model. Also, analyze the confusion matrix to identify the most common errors made by the model and suggest possible improvements to reduce these errors." (10 marks)
+ b)"Explain the difference between Ridge and LASSO regression in the context of regularized linear models. Discuss the advantages and disadvantages of each method, and provide a real-world example where one might be preferred over the other." (10 marks)
+ 
+ UNIT – 3 - 20 Marks: Dimensionality Reduction and Support Vector Machines 
+a) "Explain the concept of Locally Linear Embedding (LLE) in the context of dimensionality reduction. Discuss its advantages over Principal Component Analysis (PCA) when dealing with non-linearly separable data." (10 marks)
+ b)"Explain the process of Non-linear support vector machines (SVM) and how the kernel trick is used to transform non-linearly separable data into a higher-dimensional space where it can be linearly separated." (10 marks)
+ 
+ UNIT – 4 - 20 Marks: Decision Trees 
+a)"Explain the process of pruning a decision tree and discuss the advantages and disadvantages of using pruned trees in classification and regression problems." (6 marks)
+ b)"Explain the steps involved in the Classification and Regression Tree (CART) training algorithm, focusing on how it handles continuous and categorical variables, and the concept of recursive binary splitting." (6 marks)
+ c)"Explain the concept of GINI impurity and entropy in the context of decision trees, and discuss the advantages and disadvantages of using each as a criterion for node splitting." (8 marks)
+
+
+ UNIT – 5 - 20 Marks: Ensemble Learning and Unsupervised Learning Techniques 
+a) "Explain the concept of bagging in the context of ensemble learning and discuss its advantages over a single decision tree classifier." (5 marks)
+ b)"Explain the concept of boosting in the context of ensemble learning, focusing on the Adaboost algorithm and its role in improving the performance of weak learners." (5 marks)
+ c)"Compare and contrast the K-means and hierarchial clustring algorithms in terms of their methodology, advantages, and disadvantages, with a focus on their application in real-world scenarios." (10 marks)
+

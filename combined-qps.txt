@@ -1,0 +1,90 @@
+IML
+
+ UNIT – 1 - 20 Marks: The Machine Learning Landscape and Bayesian Decision Theory 
+1a)"Explain the process of framing a problem in the context of machine learning, using a practical example from the field of healthcare. Discuss the steps involved in defining the problem, collecting and preprocessing data, feature engineering, model selection, training, testing, validation, evaluation, deployment, monitoring, re-evaluation and potential improvements. Provide a brief justification for the choices made at each step." (10 marks)
+1b)"Consider a binary classification problem where the goal is to predict whether an email is spam or not based on various features such as the presence of certain keywords, the number of links, etc. You have prepared the data and are now ready to train and evaluate your machine learning model. Explain the steps you would take to select an appropriate performance measure for this problem, train the model, evaluate its performance using cross-validation, tune the hyperparameters using grid search, compare the performance of two different classifiers (e.g., Logistic Regression and Support Vector Machines), and interpret the results." (10 marks)
+
+ UNIT – 2 - 20 Marks: Classification and Training Models 
+2a)"Explain the process of training a binary classifier for the handwritten digit recognition problem using the MINST dataset. Discuss the role of performance measures such as accuracy, precision, recall, and F1-score in evaluating the performance of the trained model." (6 marks)
+
+2b)"Explain the concept of multilable and multioutput classifications, providing examples of real-world applications for each. Discuss the challenges and potential solutions in dealing with imbalanced data in these scenarios." (6 marks)
+2c)Explain the concept of regularization in the context of linear regression models. Discuss the differences between ridge and lasso regressions, their advantages and disadvantages, and provide an example of when each might be used. Also, discuss how these methods can help prevent overfitting in a model. (8 marks)
+
+
+ UNIT – 3 - 20 Marks: Dimensionality Reduction and Support Vector Machines 
+3a)"Explain the concept of Principal Component Analysis (PCA) in the context of dimensionality reduction. Discuss its advantages and limitations, and provide an example of its application in image compression." (5 marks)
+3b)"Explain the difference between KPCA (Kernel Principal Component Analysis) and LDA (Linear Discriminant Analysis), and provide a real-world scenario where each method would be preferable."
+3c)"Explain the concept of Non-Linear Support vector machines (SVM) and how the kernel trick is used to transform non-linearly separable data into a higher-dimensional space where it becomes linearly separatable, with a focus on the Gaussian RBF kernel and its parameters." (10 marks)
+
+
+ UNIT – 4 - 20 Marks: Decision Trees 
+4a)"Explain the concept of pruning in the context of decision trees and discuss its importance in reducing overfitting and improving the generalization performance of a decision tree model." (4 marks)
+4b)"Consider a decision tree model trained to predict whether an email is spam or not based on various features such as the number of exclamation marks, the presence of certain words, etc. Explain how you would estimate the class probabilities for an unseen email using this model and discuss the advantages and disadvantages of this approach." (8 marks)
+4c)"Explain the concept of GINI impurity and entropy in the context of decision tree algorithms. Discuss the advantages and disadvantages of using each method as a criterion for selecting the best split at each node. Provide a real-world example where one method might be preferred over the other, justifying your choice." (8 marks)
+
+ UNIT – 5 - 20 Marks: Ensemble Learning and Unsupervised Learning Techniques 
+5a)"Explain the concept of 'Random Forest' and discuss its advantages over other ensemble learning methods in terms of accuracy, overfitting, and computational efficiency." (10 marks)
+5b)"Explain the process of K-Means Cluster Algorithm and discuss its advantages and disadvantages in the context of data analysis and machine learning." (10 marks)
+
+
+
+
+LDA
+
+ 1 - 20 Marks: Basics of Gates and Combinational Logic Circuits 
+a) "Given the following K-map, find the simplified Boolean expression for the function F(A, B, C, D) using the Sum of Products method. Also, draw the logic circuit diagram using NAND gates to implement the derived expression." (6 marks)
+b) "Consider a combinational logic circuit with 5 inputs (A, B, C, D, E) and 3 outputs (F, G, H). The truth table for the circuit is given. Using the K-map method, find the simplified Boolean expression for output H." (6 marks)
+c) Explain the working principle of a parity generator and its application in error detection in digital communication systems. Include a brief explanation of even and odd parities, and the difference between them. Provide a simple example to illustrate the concept. (8 Marks) (8 marks)
+
+
+2 - 20 Marks: Sequential Circuits, Registers and Counters 
+a)"Explain the operation, timing diagram, and the difference between positive-edge triggered D flip-flop (D-FFP) and J-K master-slave (JK-M/S FF) with respect to their setup and hold times. Provide an example of a real-world application for each and discuss the advantages and disadvantages of each in that application." (10 marks)
+b)"Explain the design process of a synchronous counter with a modulus of 8. Discuss the role of flip-flops and the clock signal in this design, and provide a truth table and state diagram for the counter." (10 marks)
+ 
+3 - 20 Marks: Basic Concepts and Computer Evolution 
+a)"Explain the difference between Von Neumann and Harvard architectures in terms of memory organization and their impact on the development of modern computer systems." (4 marks)
+b) Discuss the evolution and significance of The Intel 4004, the first microprocessor, in the development of modern computing. In your answer, explain its architecture, its impact on the computer industry and its role in paving the way for future microprocessors. (8 Marks) (8 marks)
+c)"Discuss the advantages and disadvantages of bus interconnection structures in computer systems. Explain how bus arbitration and bus contention can impact the performance of a bus-based system, and propose a solution to mitigate these issues." (8 marks)
+
+
+4 - 20 Marks: Cache Memory, I/O Organization and Arithmetic 
+a) "Explain the principle of Least Recently Used (LRU) cache replacement policy and discuss its advantages and disadvantages compared to First-In-First-Out (FIFO) policy." (5 marks)
+b) "Explain the process of adding two signed numbers in a computer system, including the representation of negative numbers, carry propagation, and overflow checking." (5 marks)
+c) "Explain the design and working principle of Booth’s algorithm for signed-operand multiplication, highlighting its advantages and disadvantages compared to other methods." (10 marks)
+
+
+5 - 20 Marks: The Central Processing Unit and Control Unit 
+a)"Explain the different types of addressing modes used in a computer system, providing examples for each, and discuss the advantages and disadvantages of each addressing mode in terms of efficiency and flexibility." (10 marks)
+b)"Explain the difference and advantages of using a microprogrammable control unit compared to a hardwired one in a central processing unit (CPU)." (10 marks)
+ 
+
+
+CNS
+
+
+ 1 - 20 Marks: Introduction to Computer Network 
+a) "Explain the steps involved in building a network, focusing on the application layer. Discuss the role of applications in network communication and provide an example of an application that operates at this layer." (4 marks)
+b)"Explain the importance of network architecture in the design and implementation of a computer network. Discuss the key components of the OSI and TCP/IP models, their functions, and how they contribute to the efficient communication between devices in a network." (8 marks)
+c)"Discuss the implementation of network software in a local area network (LAN) environment, focusing on the factors that influence its performance. Explain the role of performance measures in ensuring the efficient operation of the network and provide examples of key performance indicators (KPIs) that network administrators might use to monitor and improve network performance." (8 marks)
+
+
+2 - 20 Marks: Connecting to Network 
+a)"Explain the process of encoding and framing in the context of connecting to a network, highlighting their importance in ensuring efficient and secure data transmission." (10 marks)
+b)"Explain the role of the Cyclic Redundancy Check (CRC) in error detection during the reliable transmission of data over a network, and discuss the advantages and disadvantages of using CRC for this purpose." (10 marks)
+ 
+3 - 20 Marks: Internetworking 
+a)"Explain the difference between store-and-forward and cut-through switching. Discuss the advantages and disadvantages of each method in terms of network performance and resource utilization." (6 marks)
+b)"Explain the differences and advantages/disadvantages of distance-vector and link-state algorithms in terms of scalability, convergence time, loop avoidance, bandwidth utilization and administrative overhead. Provide a real-world example for each algorithm to illustrate their practical applications." (6 marks)
+c)"Explain the role of the Border Gateway Protocol (BGP) in the global internet and discuss its advantages and disadvantages in maintaining the internet's routing system, with a focus on inter-AS (Autonomous System) communication and path selection." (8 marks)
+
+
+4 - 20 Marks: End to End Protocols 
+a)"Explain the process of establishing a TCP connection, focusing on the three-way handshake and the role of sequence numbers in maintaining the order of transmitted data." (5 marks)
+b) "Explain the impact of silly-window syndrome on network performance and discuss potential solutions to mitigate this issue in the context of TCP/IP protocol." (5 marks)
+c)"Explain the role of TCP Congestion Avoidance algorithms in maintaining network stability and fairness during data transmission. Discuss the differences between the Additive Increase Multiplicative Decrease (AIMD) and Slow Start algorithms, and provide an example of a scenario where each algorithm would be advantageous." (10 marks)
+
+
+5 - 20 Marks: Network Security and Applications 
+a)In a Bluetooth Low Energy (BLE) network, a device needs to securely communicate with another device using a symmetric key established through the OT (Oblivious Transfer) protocol. If the key size is 64 bits, the number of rounds in the Diffie-Hellman key exchange protocol is set to 4, and the probability of guessing the correct key in a brute force attack is $2^{-n}$, what is the minimum value of $n$ to ensure a security level of at least 80 bits? (Assume that the attacker has no knowledge of the devices' public keys and can only perform a passive eavesdropping attack.) (10 marks)
+b)"Explain the role of Quality of Service (QoS) in ensuring efficient delivery of multimedia applications over a network, with a focus on its impact on bandwidth allocation, packet prioritization, and jitter reduction." (10 marks)
+ 
